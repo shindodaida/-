@@ -1,0 +1,20 @@
+.field-help {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.check input {
+  width: auto;
+  margin: 0;
+}
+
+.check.hidden {
+  display: none;
+}
